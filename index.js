@@ -21,5 +21,5 @@ var array = []
 for(let i = 0; i < katzDeliLine.length; i+=1) {
   array.push(`${i+1}. ${katzDeliLine[i]}`)
 }
-return `The line is currently: ${katzDeliLine.join(", ")}`
+return `The line is currently: ${array.join(", ")}`
 }
